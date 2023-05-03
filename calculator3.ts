@@ -2,7 +2,7 @@ class Calculator {
     private panelContents: string;
 
     constructor() {
-        this.panelContents = "0";
+        this.panelContents = "";
     }
 
     getPanelContents(): string {
@@ -10,16 +10,10 @@ class Calculator {
     }
 
     pressButton(button: string): void {
-        if (this.panelContents === "0" && button !== "C") {
-            this.panelContents = button;
-        } else {
-            this.panelContents += button;
-        }
-
-        if (button === "C") {
-            this.panelContents = "0";
-        }
+        this.panelContents += button;
     }
 }
 
-export { Calculator };
+export{
+    Calculator
+}
