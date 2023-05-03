@@ -1,4 +1,4 @@
-import {mitu_a_tahte} from "../a_taht";
+import {mitu_a_tahte} from "../src/a_taht";
 test("a_arv", () => {
     expect(mitu_a_tahte("A")).toBe(1);
     expect(mitu_a_tahte("AA")).toBe(2);

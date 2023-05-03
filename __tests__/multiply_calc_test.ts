@@ -1,4 +1,4 @@
-import {Calculator} from "../calculator4";
+import {Calculator} from "../src/calculator4";
 
 let calcobj:Calculator=null;
 

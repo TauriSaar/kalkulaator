@@ -1,4 +1,4 @@
-import {Calculator} from "../calc_test";
+import {Calculator} from "../src/calc_test";
 let calcobj:Calculator=null;
 
 beforeEach(() => {
